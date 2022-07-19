@@ -33,7 +33,7 @@ function renderPeopleData(peopleData) {
      <a href=""><img id="bonded" src="bonded.png" alt="n/a"> ${person.mutualConnections} mutual connections</a>
      </div>
      
-     <a href=""><button class="connect">Connect</button></a>
+     <button class="connect">Connect</button>
        
     </article>`;
     });
