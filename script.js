@@ -1,6 +1,6 @@
 const url = "https://dummy-apis.netlify.app/api/contact-suggestions?count=";
 const counter = document.querySelector(".counter");
-let count = localStorage.getItem("count");
+let count = localStorage.getItem("count") || 0;
 
 renderCounter();
 
@@ -17,13 +17,10 @@ function getPeopleData(count) {
 }
 
 function renderPeopleData(peopleData) {
-    console.log(peopleData);
     const list = document.querySelector("#memberList");
     let htmlResult = "";
 
     peopleData.forEach((person) => {
-        console.log(person.name.first);
-
         htmlResult += `
     <article class="person">
      

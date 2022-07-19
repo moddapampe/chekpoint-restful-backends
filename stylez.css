@@ -60,7 +60,7 @@ ul {
     background-color: transparent;
     position: relative;
     border-radius: 12px;
-    height: 35vh;
+    height: 100%;
 }
 
 .person:hover {
@@ -173,7 +173,6 @@ a:visited {
     font-weight: 900;
     height: 3vh;
     width: 20vh;
-    outline: none;
     color: #fff;
     background-color: white;
     color: #0a66c2;
